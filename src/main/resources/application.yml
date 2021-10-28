@@ -1,0 +1,14 @@
+server:
+  port: 7878
+
+spring:
+  output:
+    ansi:
+      enabled: always
+  banner:
+    image:
+      location: classpath:banner.txt
+  redis:
+    port: 6379
+    host: 127.0.0.1
+    password: root
