@@ -185,10 +185,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.List;
 
 /**
- * @author haoxiaoyong on 2020/5/14 下午 3:54
- * e-mail: hxyHelloWorld@163.com
- * github: https://github.com/haoxiaoyong1014
- * Blog: www.haoxiaoyong.cn
+ * @author lcc on 2021年10月29日 17:02:14
  */
 @RestController
 @RequestMapping("/user")
