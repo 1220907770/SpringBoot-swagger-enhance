@@ -30,7 +30,7 @@ public class WebConfig implements WebMvcConfigurer {
 
 
 
-        // 添加拦截的请求，记录请求接口 和 接口请求次数
+        // 添加拦截的请求，记录请求接口 和 接口请求次数    ..
         // 如果是:  new RedisHandlerInterceptor(); StringRedisTemplate 在容器中得不到, 会产生空指针,
         // 因为只有在容器中的组件，Spring才会解析@Autowired注解， 所以在容器中获取redisHandlerInterceptor
         registry.addInterceptor(redisHandlerInterceptor);
